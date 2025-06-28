@@ -88,7 +88,7 @@ if __name__ == "__main__":
     parser.add_argument("url", help="URL lengkap dari halaman login target.")
     parser.add_argument("username", help="Username yang akan di-brute force.")
     parser.add_argument("wordlist", help="Path ke file wordlist (contoh: rockyou.txt).")
-    parser.add_argument("--target-password", default="uwu123", help="Password spesifik yang dicari. Default: uwu123")
+    parser.add_argument("--target-password", default="admin", help="Password spesifik yang dicari. Default: admin")
     
     args = parser.parse_args()
     
