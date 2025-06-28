@@ -51,7 +51,7 @@ python brute_force_laravel.py [URL_LOGIN] [USERNAME] [PATH_KE_WORDLIST] --target
 python brute_force_laravel.py http://website.com/login admin wordlist.txt --target-password password123
 ```
 
-### 2. Menggunakan password default (`uwu123`):
+### 2. Menggunakan password default (`admin`):
 
 ```bash
 python brute_force_laravel.py http://contoh-situs.net/masuk supervisor /path/to/rockyou.txt
